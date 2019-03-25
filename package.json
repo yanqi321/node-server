@@ -1,0 +1,33 @@
+{
+  "name": "server-demo",
+  "version": "1.0.0",
+  "description": "server template base on egg-core",
+  "main": "index.js",
+  "scripts": {
+    "debug": "egg-bin debug --debug-port=9229 --proxy=9998",
+    "dev": "egg-bin dev",
+    "test": "egg-bin test"
+  },
+  "keywords": [
+    "koa",
+    "egg-core",
+    "template",
+    "server"
+  ],
+  "standard": {
+    "globals": [
+      "it",
+      "describe"
+    ]
+  },
+  "author": "yanqi",
+  "license": "MIT",
+  "dependencies": {
+    "egg": "^2.20.1",
+    "egg-bin": "^4.12.0",
+    "egg-mysql": "^3.0.0"
+  },
+  "devDependencies": {
+    "egg-mock": "^3.22.1"
+  }
+}
